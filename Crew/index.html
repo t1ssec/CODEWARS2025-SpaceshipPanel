@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engines</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="/"><img src="/assets/Logo.png" alt="Logo"
+                    class="navbar-logo me-2">SENTINEL-NX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">MainPanel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Navigation/">Navigation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Sensors/">Sensors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Engines/">Engines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/Crew/">Crew</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--PAGE CONTENT-->
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Crew Module</h1>
+        <div class="row g-4">
+            <!-- CREW STATUS -->
+            <div class="col-md-3">
+                <!--CAPTAIN-->
+                <div class="card p-3 custom-dark-bg">
+                    <h4 class="text-center">Captain <br>
+                        <i class="text-info">(Ashley Frazier)</i>
+                    </h4>
+                    <hr>
+                    <p>Health: <strong class="text-success">79%</strong></p>
+                    <p>Hunger: <strong class="text-warning">43%</strong></p>
+                    <p>Thrist: <strong class="text-warning-emphasis">32%</strong></p>
+                    <p>Sanity: <strong class="text-success">64%</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--ENGINEER-->
+                <div class="card p-3 custom-dark-bg">
+                    <h4 class="text-center">Engineer <br>
+                        <i class="text-info">(Jenesis Barker)</i>
+                    </h4>
+                    <hr>
+                    <p>Health: <strong class="text-success">85%</strong></p>
+                    <p>Hunger: <strong class="text-warning">50%</strong></p>
+                    <p>Thrist: <strong class="text-warning-emphasis">40%</strong></p>
+                    <p>Sanity: <strong class="text-success">70%</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--SCIENTIST-->
+                <div class="card p-3 custom-dark-bg">
+                    <h4 class="text-center">Scientist <br>
+                        <i class="text-info">(Maxwell Palmer)</i>
+                    </h4>
+                    <hr>
+                    <p>Health: <strong class="text-success">90%</strong></p>
+                    <p>Hunger: <strong class="text-warning">35%</strong></p>
+                    <p>Thrist: <strong class="text-warning-emphasis">28%</strong></p>
+                    <p>Sanity: <strong class="text-success">80%</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--MEDIC-->
+                <div class="card p-3 custom-dark-bg">
+                    <h4 class="text-center">Medic <br>
+                        <i class="text-info">(Elliot Marshall)</i>
+                    </h4>
+                    <hr>
+                    <p>Health: <strong class="text-success">88%</strong></p>
+                    <p>Hunger: <strong class="text-warning">40%</strong></p>
+                    <p>Thrist: <strong class="text-warning-emphasis">30%</strong></p>
+                    <p>Sanity: <strong class="text-success">75%</strong></p>
+                </div>
+            </div>
+        </div>
+        <!--NEW ROW-->
+        <!--CREW ACTIVITIES-->
+        <div class="row g-4 mt-1">
+            <div class="col">
+                <div class="card p-3 custom-dark-bg">
+                    <h4 class="text-center">Crew Activities</h4>
+                    <hr>
+                    <ul>
+                        <li>Captain: Navigating to sector 9C-21</li>
+                        <li>Engineer: Performing engine maintenance</li>
+                        <li>Scientist: Analyzing sensor data</li>
+                        <li>Medic: Conducting health check-ups</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--BOOTSTRAP JS-->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
