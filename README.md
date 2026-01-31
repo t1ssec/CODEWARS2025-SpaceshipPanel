@@ -1,48 +1,79 @@
-# CodeWars 2025/2026
-____SENTINEL-NX Panel____ - A Control Panel For SpaceShips made for a competition jst for fun :)
-## Features
+---
 
-- Height
-- GPS Panel
-- Cordinates
-- Communication System
-- Alerts
-- Destination Selector
-- Star Map
-- Sensors For Enviroment
-- Ship Status
-- Detected Objects
-- Main Engine Information
-- Fuel characteristics
-- Superluminal Engine
-- Controls (Start Engine etc.)
-- Crews
-- Crew Activities
-- Support For Phone or Smaller Screens
-- A Cool Custom Loading Screen
+# 🚀 CodeWars 2025: SENTINEL-NX Panel
 
-## User Guidance
+The **SENTINEL-NX Panel** is a futuristic, browser-based control interface designed for spacecraft. Created for competition and experimentation, this dashboard mimics the complex systems required to pilot a ship through the stars.
 
-- You can open the index.html file located in the project folder with a modern browser (Chrome, Firefox, Edge, or Brave are recommended).
-- No login or installation is required. If you want to implement this website to real systems then you can add login pages security features and etc.
-- The main page displays system information such as gps status, communications, and critical alerts.
-- There are interactive buttons that allow you to start the engine, emergency shutdown, reduce power and etc.
-- NOTES: This project is a simulation and does not control real systems. If you really like the project you can fork this project with no problems and implement it to other systems or wathever you want. For more information read (Contributing).
+---
 
-## Troubleshooting
+## 🛠 Features
 
-- If the page does not load correctly try refreshing the page.
-- Make sure that javascript is enabled in your browser
-- Avoid using old browsers like Internet explorer like we are in 90's XD.
+### **Navigation & Surveillance**
 
-## What I Learned
+* **Astro-Navigation:** GPS Panel, Coordinate tracking, and a dynamic Star Map.
+* **Sensor Array:** Environment sensors and detection of nearby objects.
+* **Destination Selector:** Set your course for distant star systems.
 
-- I Learned about [Bootstrap](https://getbootstrap.com/) i never used it before it was very fun to expiriment stuff.
-- I Learned how to make README files.
+### **Engineering & Propulsion**
 
-## What I Used
+* **Engine Monitoring:** Real-time data on Main Engines and Fuel characteristics.
+* **FTL Drive:** Dedicated interface for the Superluminal Engine.
+* **Command Center:** Interactive controls for Engine Start, Emergency Shutdown, and Power Management.
 
-- [Bootstrap Library](https://getbootstrap.com/)
+### **Ship Logistics**
 
-## Screenshots
-- Screenshots are avaible in the "screenshots" folder.
+* **Status & Alerts:** Critical system monitoring and emergency alert protocols.
+* **Communication:** Integrated subspace comms system.
+* **Crew Management:** Overview of crew members and their current activities.
+
+### **The "Extra Mile"**
+
+* **Responsive Design:** Fully compatible with mobile and small-screen devices.
+* **Custom Visuals:** Features a bespoke, high-tech loading screen.
+
+---
+
+## 📖 User Guidance
+
+1. **Launch:** Open `index.html` in any modern web browser.
+> **Note:** Chrome, Firefox, Edge, or Brave are highly recommended.
+
+
+2. **No Setup:** This is a client-side simulation. No installation, login, or database is required to view the UI.
+3. **Interaction:** Use the sidebar or main dashboard buttons to trigger engine sequences or view different system modules.
+4. **Extensibility:** If you want to use this for a real system, you can easily fork the project and integrate your own security layers and backend APIs.
+
+> [!IMPORTANT]
+> **DISCLAIMER:** This project is a simulation and does not control actual hardware (yet!). Feel free to fork, modify, and implement it into your own projects.
+
+---
+
+## 🔧 Troubleshooting
+
+* **UI Issues:** If the layout looks off, try refreshing the page.
+* **Interactivity:** Ensure **JavaScript** is enabled in your browser settings.
+* **Compatibility:** Avoid outdated browsers (like Internet Explorer). We’re flying spaceships, not 90s desktop PCs! 🚀
+
+---
+
+## 🎓 Tech Stack & Learning
+
+* **Framework:** [Bootstrap](https://getbootstrap.com/) (First time using it—great for rapid UI development!)
+* **Documentation:** Learned the art of crafting structured Markdown READMEs.
+
+---
+### **Main Panel**
+![Main Panel](https://raw.githubusercontent.com/T1SSEC/CODEWARS2025-SpaceshipPanel/refs/heads/main/Screenshots/MainPanel.png)
+
+### **Crew Page**
+![Crew Page](https://raw.githubusercontent.com/T1SSEC/CODEWARS2025-SpaceshipPanel/refs/heads/main/Screenshots/CrewPage.png)
+
+### **Engines Page**
+![Engines Page](https://raw.githubusercontent.com/T1SSEC/CODEWARS2025-SpaceshipPanel/refs/heads/main/Screenshots/EnginesPage.png)
+
+### **Navigation Page**
+![Navigation Page](https://raw.githubusercontent.com/T1SSEC/CODEWARS2025-SpaceshipPanel/refs/heads/main/Screenshots/NavigationPage.png)
+
+### **Sensors Page**
+![Sensors Page](https://raw.githubusercontent.com/T1SSEC/CODEWARS2025-SpaceshipPanel/refs/heads/main/Screenshots/SensorsPage.png)
+---
